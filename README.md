@@ -5,7 +5,7 @@ Shaip Logger is a python SDK to log LLM inferences to Shaip API Server.
 ## Installation
 
 ```bash
-pip install shaip-logger
+python3 -m pip install git+https://github.com/shaip-user/shaip-logger.git
 ```
 
 ## Usage
