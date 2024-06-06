@@ -186,7 +186,7 @@ class Trace(ShaipApiKey):
             endpoint=f'{API_BASE_URL}/api/v1/trace/sdk',
             payload=request_dict,
             headers={
-                "shaip-api-key": Trace.get_api_key(),
+                "x-api-key": Trace.get_api_key(),
                 "Content-Type": "application/json",
             },
         )

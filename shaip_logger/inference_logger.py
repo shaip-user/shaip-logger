@@ -136,7 +136,7 @@ class InferenceLogger(ShaipApiKey):
                 endpoint=f'{API_BASE_URL}/api/v1/log/inference',
                 payload=payload,
                 headers={
-                    'shaip-api-key': InferenceLogger.get_api_key(),
+                    'x-api-key': InferenceLogger.get_api_key(),
                 },
             )
         except Exception as e:

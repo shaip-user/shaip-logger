@@ -143,7 +143,7 @@ class LogOpenAiCompletionStreamInference(LogStreamInference, ShaipApiKey):
                 endpoint=LOG_INFERENCE_URL,
                 payload=payload,
                 headers={
-                    'shaip-api-key': LogOpenAiCompletionStreamInference.get_api_key(),
+                    'x-api-key': LogOpenAiCompletionStreamInference.get_api_key(),
                 },
             )
         except Exception as e:

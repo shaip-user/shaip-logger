@@ -161,7 +161,7 @@ class LogOpenAiChatCompletionStreamInference(LogStreamInference, ShaipApiKey):
                 endpoint=LOG_INFERENCE_URL,
                 payload=payload,
                 headers={
-                    'shaip-api-key': LogOpenAiChatCompletionStreamInference.get_api_key(),
+                    'x-api-key': LogOpenAiChatCompletionStreamInference.get_api_key(),
                 },
             )
         except Exception as e:
