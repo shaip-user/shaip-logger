@@ -195,4 +195,4 @@ def test_langchain_streaming():
 
 ## Contact 
 
-Please feel free to reach out to akshat@shaip.ai or shiv@shaip.ai for more information.
+Please feel free to reach out to tech-support@shaip.com for more information.
