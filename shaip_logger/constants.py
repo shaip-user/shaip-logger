@@ -1,5 +1,5 @@
 # Shaip Server Base Url
-API_BASE_URL = 'https://log.shaip.ai'
+API_BASE_URL = 'https://eval.shaip.ai:9000/'
 LOG_INFERENCE_URL = f'{API_BASE_URL}/api/v1/log/inference'
 
 OPENAI_MODEL_ENCODINGS = {
